@@ -1093,5 +1093,50 @@ var Pokemon = [
 				SpD : 70,
 				Spe : 65
 			}	
+		},
+		{	
+			id:"227",
+			name:"skarmory",
+			actualName:"Skarmory",
+			type:["steel","flying"],
+			role:["Support", "Wall-Physical"],
+			stats:{
+				HP : 65,
+				Atk : 80,
+				Def : 140,
+				SpA : 40,
+				SpD : 70,
+				Spe : 70
+			}	
+		},
+		{	
+			id:"795",
+			name:"pheromosa",
+			actualName:"Pheromosa",
+			type:["bug","fighting"],
+			role:["Revenge Killer", "Attacker-Special", "Attacker-Physical","Attacker-Mixed"],
+			stats:{
+				HP : 71,
+				Atk : 137,
+				Def : 37,
+				SpA : 137,
+				SpD : 37,
+				Spe : 151
+			}	
+		},
+		{	
+			id:"796",
+			name:"xurkitree",
+			actualName:"Xurkitree",
+			type:["electric","electric"],
+			role:["Attacker-Special", "Set-Up Sweeper"],
+			stats:{
+				HP : 83,
+				Atk : 89,
+				Def : 71,
+				SpA : 173,
+				SpD : 71,
+				Spe : 83
+			}	
 		}
 ]

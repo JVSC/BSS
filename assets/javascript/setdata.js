@@ -1452,6 +1452,54 @@ var setData = [
 				nature:"Timid",
 				setname:["Make it Rain"]
 			}]
+		},
+		{
+		id:"227",
+		set:[{
+				HP:252,
+				Atk:0,
+				Def:228,
+				SpA:0,
+				SpD:0,
+				Spe:24,
+				moves:["Roost","Stealth Rock","Whirlwind","Drill Peck"],
+				items:["Rocky Helmet"],
+				ability:"Sturdy",
+				nature:"Impish",
+				setname:["Flying Wall"]
+			}]
+		},
+		{
+		id:"795",
+		set:[{
+				HP:0,
+				Atk:252,
+				Def:0,
+				SpA:4,
+				SpD:0,
+				Spe:252,
+				moves:["Ice Beam","Poison Jab","U-Turn","High Jump Kick"],
+				items:["Life Orb"],
+				ability:"Beast Boost",
+				nature:"Naive",
+				setname:["Mixed Attacker"]
+			}]
+		},
+		{
+		id:"796",
+		set:[{
+				HP:4,
+				Atk:0,
+				Def:0,
+				SpA:252,
+				SpD:0,
+				Spe:252,
+				moves:["Thunderbolt","Hidden Power Ice","Tail Glow","Energy Ball"],
+				items:["Electrium-Z"],
+				ability:"Beast Boost",
+				nature:"Timid",
+				setname:["BRING THE THUNDER!"]
+			}]
 		}
 	]	
 		
