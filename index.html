@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108490011-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-108490011-1');
+	</script>
+
+	<title>Team Helper</title>
+	<link rel="icon" type="image/gif/png" href="assets/icons/icon-small.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/poke info.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/team.css">
+</head>
+<body>
+	<header>
+		<p id="git">Team Viewer : BSS (beta)</p>
+	</header>
+	<div id="container">
+		<div id="poke-info">
+			<section id="poke-portrait">
+				<img id="poke-pic" src=" ">
+				<button id="add2team" title="Click this button to add this pokemon to your team">Add +</button>
+				<form id="searchBar">
+		      		<select id="items">
+		      			<option>Select...</option>
+		      		</select>
+    			</form>
+			</section>
+
+			<section id="stats">
+				<h4><span id="pkmn-name"></span>'s Stats</span></h4>
+				<table>
+					<tr>
+						<td class="table-name">HP</td>
+						<td class="stat" id="HP"></td>
+						<td><div class="box" id="hp"></div><td>
+					</tr>
+					<tr>
+						<td class="table-name">Atk</td>
+						<td class="stat" id="Atk"></td>
+						<td><div class="box" id="atk"></div><td>	
+					</tr>
+					<tr>
+						<td class="table-name">Def</td>
+						<td class="stat" id="Def"></td>
+						<td><div class="box" id="def"></div><td>
+					</tr>
+					<tr>
+						<td class="table-name">SpA</td>
+						<td class="stat" id="SpA"></td>
+						<td><div class="box" id="spa"></div><td>
+					</tr>
+					<tr>
+						<td class="table-name">SpD</td>
+						<td class="stat" id="SpD"></td>
+						<td><div class="box" id="spd"></div><td>
+					</tr>
+					<tr>
+						<td class="table-name">Spe</td>
+						<td class="stat" id="Spe"></td>
+						<td><div class="box" id="spe"></div><td>
+					</tr>
+				</table>
+			</section>
+			
+			<section id="profile">
+					<h4>Top Checks & Counters</h4>
+					<section id="counter"></section>
+					<h4>Favourable Match-ups</h4>
+					<section id="fav"></section>
+			</section>
+
+			<div id="moveset-button">
+			</div>
+
+			<section id="container-moveset">
+				<table  id ="custom-move">
+					<tr>
+						<td class="moveset-name">Nature</td>
+			
+						<td class="moveset-name">Ability</td>	
+
+						<td class="moveset-name">Item</td>					
+
+						<td class="moveset-name">EV Spread</td>
+					
+						<td class="moveset-name">Move 1</td>
+
+						<td class="moveset-name">Move 2</td>
+
+						<td class="moveset-name">Move 3</td>
+
+						<td class="moveset-name">Move 4</td>
+					</tr>
+					<tr>
+						<td class="moveset" id="nature"></td>
+						<td class="moveset" id="ability"></td>
+						<td class="moveset" id="item"></td>
+						<td class="moveset" id="evs"></td>
+						<td class="moveset" id="m1"></td>
+						<td class="moveset" id="m2"></td>
+						<td class="moveset" id="m3"></td>
+						<td class="moveset" id="m4"></td>
+					</tr>
+				</table>
+			</section>
+		</div>
+		<div id="button-container">
+			<button class="click-role" value="Wall-Physical">Physically Defensive</button>
+			<button class="click-role" value="Wall-Special">Specially Defensive</button>
+			<button class="click-role" value="Wall-Mixed">Mixed Walls</button>
+			<button class="click-role" value="Mega">Mega</button>
+			<button class="click-role" value="Support">Support</button>
+			<button class="click-role" value="Pivot">Pivot</button>
+			<button class="click-role" value="Revenge Killer">Revenge Killers</button>
+			<button class="click-role" value="Attacker-Physical">Physical Attacker</button>
+			<button class="click-role" value="Attacker-Special">Special Attacker</button>
+			<button class="click-role" value="Attacker-Mixed">Mixed Attacker</button>
+			<button class="click-role" value="Set-up Sweeper">Set-up Sweepers</button>
+			<button class="click-role" id="all" value="All">C L E A R</button>
+		</div>
+		<div id="team">
+			<div id = "t-members" class="TypeMatch">
+				<h5>Party Members</h5>
+				<section id="t1" class="members" value="-1"><img src="assets/icons/question.png"></section>
+				<section id="t2" class="members" value="-1"><img src="assets/icons/question.png">
+				</section>
+				<section id="t3" class="members" value="-1"><img src="assets/icons/question.png">
+				</section>
+				<section id="t4" class="members" value="-1"><img src="assets/icons/question.png">
+				</section>
+				<section id="t5" class="members" value="-1"><img src="assets/icons/question.png">
+				</section>
+				<section id="t6" class="members" value="-1"><img src="assets/icons/question.png">
+				</section>
+			</div>
+			<div id="selectors">
+				<button id="TM" class="TypeMatch">Type Match Up</button>
+				<button id="WO" class="WatchOut">Watch Out</button>
+				<button id="OS" class="OverallStats">Overall Power</button>
+				<button id="GT" class="GoodTeamMates">Good Teammates</button>
+				<button id="reset2" class="reset2">Reset</button>
+			</div>	
+			<div id="typing">
+				<h5>Type Match Up</h5>
+				<section class="type"><img src="assets/icons/bug.gif">  <span id="bug">0</span></section>
+				<section class="type"><img src="assets/icons/dark.gif">  <span id="dark">0</span></section>
+				<section class="type"><img src="assets/icons/dragon.gif">  <span id="dragon">0</span></section>
+				<section class="type"><img src="assets/icons/electric.gif">  <span id="electric">0</span></section>
+				<section class="type"><img src="assets/icons/fairy.gif">  <span id="fairy">0</span></section>
+				<section class="type"><img src="assets/icons/fighting.gif">  <span id="fighting">0</span></section>
+				<section class="type"><img src="assets/icons/fire.gif">  <span id="fire">0</span></section>
+				<section class="type"><img src="assets/icons/flying.gif">  <span id="flying">0</span></section>
+				<section class="type"><img src="assets/icons/ghost.gif">  <span id="ghost">0</span></section>
+				<section class="type"><img src="assets/icons/grass.gif">  <span id="grass">0</span></section>
+				<section class="type"><img src="assets/icons/ground.gif">  <span id="ground">0</span></section>
+				<section class="type"><img src="assets/icons/ice.gif">  <span id="ice">0</span></section>
+				<section class="type"><img src="assets/icons/normal.gif">  <span id="normal">0</span></section>
+				<section class="type"><img src="assets/icons/psychic.gif">  <span id="psychic">0</span></section>
+				<section class="type"><img src="assets/icons/rock.gif">  <span id="rock">0</span></section>
+				<section class="type"><img src="assets/icons/water.gif">  <span id="water">0</span></section>
+				<section class="type"><img src="assets/icons/steel.gif">  <span id="steel">0</span></section>
+				<section class="type"><img src="assets/icons/poison.gif">  <span id="poison">0</span></section>
+			</div>
+			<section id="threat-container" class="hiddenB">
+				<h5>Watch Out For:</h5>
+				<div id="threat-list">
+				</div>
+			</section>
+			<section id="overall-power" class="hiddenB">
+				<h5>Stat Distribution</h5>
+				<section id="HPBars">
+					<div class="HPoints"></div>
+					<div class="HPoints"></div>
+					<div class="HPoints"></div>
+					<div class="HPoints"></div>
+					<div class="HPoints"></div>
+					<h5>HP</h5>
+				</section>
+				<section id="AttackBars">
+					<div class="Attack"></div>
+					<div class="Attack"></div>
+					<div class="Attack"></div>
+					<div class="Attack"></div>
+					<div class="Attack"></div>
+					<h5>Atk</h5>
+				</section>
+				<section id="DefenseBars">
+					<div class="Defense"></div>
+					<div class="Defense"></div>
+					<div class="Defense"></div>
+					<div class="Defense"></div>
+					<div class="Defense"></div>
+					<h5>Def</h5>
+				</section>
+				<section id="SpABars">
+					<div class="SpA"></div>
+					<div class="SpA"></div>
+					<div class="SpA"></div>
+					<div class="SpA"></div>
+					<div class="SpA"></div>
+					<h5>SpA</h5>
+				</section>
+				<section id="SpDBars">
+					<div class="SpD"></div>
+					<div class="SpD"></div>
+					<div class="SpD"></div>
+					<div class="SpD"></div>
+					<div class="SpD"></div>
+					<h5>SpD</h5>
+				</section>
+				<section id="SpeedBars">
+					<div class="Speed"></div>
+					<div class="Speed"></div>
+					<div class="Speed"></div>
+					<div class="Speed"></div>
+					<div class="Speed"></div>
+					<h5>Spe</h5>
+				</section>
+			</section> 
+			<section id="SuggestedTeamMates" class="hiddenB">
+				<h5>Suggested Party Members:</h5>
+				<div id="team-list">
+				</div>
+			</section>
+		</div>
+		<div id="pageInfo">
+			Hey there! This is a webpage meant to help you tune out teams for the Battle Spot Singles ladder and competitions in Pokemon Sun and Moon!<br><br>
+
+			For questions, errors, suggestions or any sort of feedback, please contact me at johta.sc@gmail.com or send me a message on <a href="http://www.smogon.com/forums/members/johta.342012/">Smogon</a> or <a href="https://www.reddit.com/user/Johtaro/">Reddit!</a><br><br>
+			Also, missing something? Suggest sets to be permanently added <a href="http://www.smogon.com/forums/threads/battle-spot-singles-team-helper.3618707/">here</a>
+			<br><br>
+			Pokemon is © of Nintendo 1995-2017<br>
+			© of jvsc
+		</div>
+		<div id="wrap-pkmn-container">
+			<div id="pkmn-container"></div>
+		</div>
+	</div>
+<script type="text/javascript" src="assets/javascript/Buttons.js"></script>
+<script type="text/javascript" src="assets/javascript/pokemondata.js"></script>	
+<script type="text/javascript" src="assets/javascript/setdata.js"></script>
+<script type="text/javascript" src="assets/javascript/setdata2.js"></script>
+<script type="text/javascript" src="assets/javascript/typedata.js"></script>
+<script type="text/javascript" src="assets/javascript/naturedata.js"></script>	
+<script type="text/javascript" src="assets/javascript/functionality.js"></script>
+<script type="text/javascript" src="assets/javascript/functionality_2.js"></script>
+<script type="text/javascript" src="assets/javascript/functionality_3.js"></script>
+<script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>

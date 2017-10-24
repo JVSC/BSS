@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	color: black;
+	font-family: "Fira Sans", "Ubuntu", Arial, sans-serif;
+  background-color: rgb(208, 212, 219);
+  margin: 0;
+}
+
+header{
+  height: 45px;
+  width: 100%;
+  background: #4776E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,.6), 0px 2px 2px rgb(113, 128, 153, .15);
+}
+
+h4{
+  margin: 0 0 5px 0;
+  font-size: 13.5px;
+  color:#727296;
+}
+
+h5 {
+  margin: 0;
+  font-weight: bold;
+}
+
+td {
+  padding-right: 10px;
+}
+
+#git {
+  min-width: 500px;
+ 	margin: 0px auto;
+ 	float: left;
+ 	margin-left: 60px;
+ 	font-family: 'Raleway', sans-serif;
+ 	font-size: 25px;
+}
+
+#searchBar{
+  float: right;
+}
+
+#pageInfo{
+  width: 400px;
+  height: 160px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: #a5b6d3;
+  padding:5px;
+  float: left;
+  font-family: Arial;
+  font-size: 12px;
+  color: grey;
+}
+
+#container{
+	margin: 0 auto;
+  width: 1000px;
+}
+
+#wrap-pkmn-container{
+	width: 100%;
+	margin: 0 auto;
+  border-radius: 10px;
+  padding-left: 15.5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  clear:both;
+}
+
+#button-container{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  padding: 10px -0.9% 10px -0.9%;
+  box-sizing: 
+}
+
+#all{
+  color: white;
+  font-weight: bolder;
+  background-color: #9ab1ba;
+}
+
+.pokemon {
+	width: 32px;
+	height: 32px;
+	border-radius: 10px;
+	margin: 4px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.click-role{
+	width: 20%;
+	height: 15px;
+	font-size: 10px;
+	margin: 0.4%;
+	border: 1px solid white;
+	border-radius: 2px;
+	outline: none;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+#all:hover{
+  border-color: white;
+  color: white;
+  background-color: #638999;
+  font-weight: bold;
+}
+
+.click-role:hover{
+  background-color: white;
+  border: 1px solid rgb(95, 111, 140);
+  color: rgb(95, 111, 140);
+}
+
+.click-role-active{
+  background-color: white;
+  border: 1px solid rgb(95, 111, 140);
+  color: rgb(95, 111, 140);
+}
+
+.pokemon-normal {
+  background-color: #A8A878; }
+
+.pokemon-normal-border {
+  border: 2px solid #A8A878; }
+
+.pokemon-fire {
+  background-color: #F08030; }
+
+.pokemon-fire-border {
+  border: 2px solid #F08030; }
+
+.pokemon-fighting {
+  background-color: #c03028; }
+
+.pokemon-fighting-border {
+  border: 2px solid #c03028; }
+
+.pokemon-water {
+  background-color: #6890F0; }
+
+.pokemon-water-border {
+  border: 2px solid #6890F0; }
+
+.pokemon-flying {
+  background-color: #a890f0; }
+
+.pokemon-flying-border {
+  border: 2px solid #a890f0; }
+
+.pokemon-grass {
+  background-color: #78c850; }
+
+.pokemon-grass-border {
+  border: 2px solid #78c850; }
+
+.pokemon-poison {
+  background-color: #a040a0; }
+
+.pokemon-poison-border {
+  border: 2px solid #a040a0; }
+
+.pokemon-electric {
+  background-color: #f8d030; }
+
+.pokemon-electric-border {
+  border: 2px solid #f8d030; }
+
+.pokemon-ground {
+  background-color: #e0c068; }
+
+.pokemon-ground-border {
+  border: 2px solid #e0c068; }
+
+.pokemon-psychic {
+  background-color: #f85888; }
+
+.pokemon-psychic-border {
+  border: 2px solid #f85888; }
+
+.pokemon-rock {
+  background-color: #b8a038; }
+
+.pokemon-rock-border {
+  border: 2px solid #b8a038; }
+
+.pokemon-ice {
+  background-color: #98d8d8; }
+
+.pokemon-ice-border {
+  border: 2px solid #98d8d8; }
+
+.pokemon-bug {
+  background-color: #a8b820; }
+
+.pokemon-bug-border {
+  border: 2px solid #a8b820; }
+
+.pokemon-dragon {
+  background-color: #7038f8; }
+
+.pokemon-dragon-border {
+  border: 2px solid #7038f8; }
+
+.pokemon-ghost {
+  background-color: #705898; }
+
+.pokemon-ghost-border {
+  border: 2px solid #705898; }
+
+.pokemon-dark {
+  background-color: #705848; }
+
+.pokemon-dark-border {
+  border: 2px solid #705848; }
+
+.pokemon-steel {
+  background-color: #b8b8d0; }
+
+.pokemon-steel-border {
+  border: 2px solid #b8b8d0; }
+
+.pokemon-fairy {
+  background-color: #ee99ac; }
+
+.pokemon-fairy-border {
+  border: 2px solid #ee99ac; }
+
+.hidden {
+  display: none; }
+
+.pokemon-normal:hover {
+  background-color: #dadaaa; }
+
+.pokemon-normal-border:hover {
+  border: 2px solid #767646; }
+
+.pokemon-fire:hover {
+  background-color: #ffb262; }
+
+.pokemon-fire-border:hover {
+  border: 2px solid #be4e00; }
+
+.pokemon-fighting:hover {
+  background-color: #f2625a; }
+
+.pokemon-fighting-border:hover {
+  border: 2px solid #8e0000; }
+
+.pokemon-water:hover {
+  background-color: #9ac2ff; }
+
+.pokemon-water-border:hover {
+  border: 2px solid #365ebe; }
+
+.pokemon-flying:hover {
+  background-color: #dac2ff; }
+
+.pokemon-flying-border:hover {
+  border: 2px solid #765ebe; }
+
+.pokemon-grass:hover {
+  background-color: #aafa82; }
+
+.pokemon-grass-border:hover {
+  border: 2px solid #46961e; }
+
+.pokemon-poison:hover {
+  background-color: #d272d2; }
+
+.pokemon-poison-border:hover {
+  border: 2px solid #6e0e6e; }
+
+.pokemon-electric:hover {
+  background-color: #ffff62; }
+
+.pokemon-electric-border:hover {
+  border: 2px solid #c69e00; }
+
+.pokemon-ground:hover {
+  background-color: #fff29a; }
+
+.pokemon-ground-border:hover {
+  border: 2px solid #ae8e36; }
+
+.pokemon-psychic:hover {
+  background-color: #ff8aba; }
+
+.pokemon-psychic-border:hover {
+  border: 2px solid #c62656; }
+
+.pokemon-rock:hover {
+  background-color: #ead26a; }
+
+.pokemon-rock-border:hover {
+  border: 2px solid #866e06; }
+
+.pokemon-ice:hover {
+  background-color: #caffff; }
+
+.pokemon-ice-border:hover {
+  border: 2px solid #66a6a6; }
+
+.pokemon-bug:hover {
+  background-color: #daea52; }
+
+.pokemon-bug-border:hover {
+  border: 2px solid #768600; }
+
+.pokemon-dragon:hover {
+  background-color: #a26aff; }
+
+.pokemon-dragon-border:hover {
+  border: 2px solid #3e06c6; }
+
+.pokemon-ghost:hover {
+  background-color: #a28aca; }
+
+.pokemon-ghost-border:hover {
+  border: 2px solid #3e2666; }
+
+.pokemon-dark:hover {
+  background-color: #a28a7a; }
+
+.pokemon-dark-border:hover {
+  border: 2px solid #3e2616; }
+
+.pokemon-steel:hover {
+  background-color: #eaeaff; }
+
+.pokemon-steel-border:hover {
+  border: 2px solid #86869e; }
+
+.pokemon-fairy:hover {
+  background-color: #ffcbde; }
+
+.pokemon-fairy-border:hover {
+  border: 2px solid #bc677a; }
+

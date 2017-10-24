@@ -1,0 +1,34 @@
+// Template para o pokemon
+
+			id:,
+			name:,
+			actualName:,  
+			type:["",""],
+			role:[""],
+			stats:{
+				HP :
+				Atk :
+				Def :
+				SpA :
+				SpD :
+				Spe : 
+			}	
+// TEMPLATE PARA  MOVESET
+		
+	{
+		id:,
+		set:[
+			evs:{
+				Hp:,
+				Atk:,
+				Def:,
+				SpA:,
+				SpD:,
+				Spe:
+			}
+			moves:[],
+			items:[],
+			ability:,
+			setname:[]
+		]
+	}
