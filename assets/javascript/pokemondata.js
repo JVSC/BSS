@@ -1138,5 +1138,155 @@ var Pokemon = [
 				SpD : 71,
 				Spe : 83
 			}	
+		},
+		{	
+			id:"105-a",
+			name:"marowak-alola",
+			actualName:"Marowak-alola",
+			type:["fire","ghost"],
+			role:["Attacker-Physical", "Support"],
+			stats:{
+				HP : 83,
+				Atk : 89,
+				Def : 71,
+				SpA : 173,
+				SpD : 71,
+				Spe : 83
+			}	
+		},
+		{	
+			id:"306",
+			name:"aggron",
+			actualName:"Aggron",
+			type:["steel","rock"],
+			role:[""],
+			stats:{
+				HP : 70,
+				Atk : 110,
+				Def : 180,
+				SpA : 60,
+				SpD : 60,
+				Spe : 50
+			}	
+		},
+		{	
+			id:"306-m",
+			name:"aggron-mega",
+			actualName:"Aggron-Mega",
+			type:["steel","steel"],
+			role:["Attacker-Physical", "Wall-Physical","Mega"],
+			stats:{
+				HP : 70,
+				Atk : 140,
+				Def : 230,
+				SpA : 60,
+				SpD : 80,
+				Spe : 50
+			}	
+		},
+		{	
+			id:"208",
+			name:"steelix",
+			actualName:"Steelix",
+			type:["steel","ground"],
+			role:[""],
+			stats:{
+				HP : 75,
+				Atk : 85,
+				Def : 200,
+				SpA : 55,
+				SpD : 65,
+				Spe : 30
+			}	
+		},
+		{	
+			id:"208-m",
+			name:"steelix-mega",
+			actualName:"Steelix-Mega",
+			type:["steel","ground"],
+			role:["Mega","Attacker-Physical","Set-Up Sweeper"],
+			stats:{
+				HP : 75,
+				Atk : 125,
+				Def : 230,
+				SpA : 55,
+				SpD : 95,
+				Spe : 30
+			}	
+		},
+		{	
+			id:"089-a",
+			name:"muk-alola",
+			actualName:"Muk-Alola",
+			type:["poison","dark"],
+			role:["Attacker-Physical","Support","Wall-Special"],
+			stats:{
+				HP : 105,
+				Atk : 105,
+				Def : 75,
+				SpA : 65,
+				SpD : 100,
+				Spe : 50
+			}	
+		},
+		{	
+			id:"143",
+			name:"snorlax",
+			actualName:"Snorlax",
+			type:["normal","normal"],
+			role:["Attacker-Physical","Wall-Mixed","Set-Up Sweeper"],
+			stats:{
+				HP : 160,
+				Atk : 110,
+				Def : 65,
+				SpA : 65,
+				SpD : 110,
+				Spe : 30
+			}	
+		},
+		{	
+			id:"334",
+			name:"altaria",
+			actualName:"Altaria",
+			type:["dragon","flying"],
+			role:[""],
+			stats:{
+				HP : 75,
+				Atk : 70,
+				Def : 90,
+				SpA : 70,
+				SpD : 105,
+				Spe : 80
+			}	
+		},
+		{	
+			id:"334-m",
+			name:"altaria-mega",
+			actualName:"Altaria-Mega",
+			type:["dragon","fairy"],
+			role:["Mega","Attacker-Physical","Wall-Mixed","Set-Up Sweeper","Attacker-Special","Wall-Physical","Support"],
+			stats:{
+				HP : 75,
+				Atk : 110,
+				Def : 110,
+				SpA : 110,
+				SpD : 105,
+				Spe : 80
+			}	
+		},
+		{	
+			id:"706",
+			name:"goodra",
+			actualName:"Goodra",
+			type:["dragon","dragon"],
+			role:["Wall-Special","Attacker-Special"],
+			stats:{
+				HP : 90,
+				Atk : 100,
+				Def : 70,
+				SpA : 110,
+				SpD : 150,
+				Spe : 80
+			}	
 		}
 ]

@@ -12,6 +12,17 @@ function getNatureValue (id, target){
 			}
 			return stats
 		}break;
+		case "Brave":{
+			var stats = {
+				HP : 1,
+				Atk : 1.1,
+				Def : 1,
+				SpA : 1,
+				SpD : 1,
+				Spe : 0.9
+			}
+			return stats
+		}break;
 		case "Bold":{
 			var stats = {
 				HP : 1,

@@ -1500,6 +1500,166 @@ var setData = [
 				nature:"Timid",
 				setname:["BRING THE THUNDER!"]
 			}]
+		},
+		{
+		id:"105-a",
+		set:[{
+				HP:252,
+				Atk:252,
+				Def:0,
+				SpA:0,
+				SpD:4,
+				Spe:0,
+				moves:["Flare Blitz","Shadow Bone","Bonemerang","Will-O-Wisp"],
+				items:["Thick Club"],
+				ability:"Lighting Rod",
+				nature:"Adamant",
+				setname:["Physical Attacker"]
+			}]
+		},
+		{
+		id:"306",
+		set:[{
+				HP:236,
+				Atk:252,
+				Def:20,
+				SpA:0,
+				SpD:0,
+				Spe:0,
+				moves:["Fire Punch","Heavy Slam","Earthquake","Stone Edge"],
+				items:["Aggronite"],
+				ability:"Filter",
+				nature:"Adamant",
+				setname:["Mega"]
+			}]
+		},
+		{
+		id:"306-m",
+		set:[{
+				HP:236,
+				Atk:252,
+				Def:20,
+				SpA:0,
+				SpD:0,
+				Spe:0,
+				moves:["Fire Punch","Heavy Slam","Earthquake","Stone Edge"],
+				items:["Aggronite"],
+				ability:"Filter",
+				nature:"Adamant",
+				setname:["Tank"]
+			}]
+		},
+		{
+		id:"208",
+		set:[{
+				HP:244,
+				Atk:252,
+				Def:0,
+				SpA:0,
+				SpD:12,
+				Spe:0,
+				moves:["Earthquake","Gyro Ball","Rock Blast","Curse"],
+				items:["Steelixite"],
+				ability:"Sturdy",
+				nature:"Brave",
+				setname:[""]
+			}]
+		},
+		{
+		id:"208-m",
+		set:[{
+				HP:244,
+				Atk:252,
+				Def:0,
+				SpA:0,
+				SpD:12,
+				Spe:0,
+				moves:["Earthquake","Gyro Ball","Rock Blast","Curse"],
+				items:["Steelixite"],
+				ability:"Sturdy",
+				nature:"Brave",
+				setname:[""]
+			}]
+		},
+		{
+		id:"089-a",
+		set:[{
+				HP:248,
+				Atk:4,
+				Def:180,
+				SpA:0,
+				SpD:76,
+				Spe:0,
+				moves:["Poison Jab","Knock Off","Shadow Sneak","Pursuit"],
+				items:["Assault Vest"],
+				ability:"Poison Touch",
+				nature:"Brave",
+				setname:["Assault Vest"]
+			}]
+		},
+		{
+		id:"143",
+		set:[{
+				HP:148,
+				Atk:4,
+				Def:252,
+				SpA:0,
+				SpD:100,
+				Spe:4,
+				moves:["Curse","Fire Punch","Recycle","Return"],
+				items:["Figy Berry"],
+				ability:"Gluttony",
+				nature:"Impish",
+				setname:["Berry Eater"]
+			}]
+		},
+		{
+		id:"334",
+		set:[{
+				HP:244,
+				Atk:0,
+				Def:252,
+				SpA:12,
+				SpD:0,
+				Spe:0,
+				moves:["Roost","Fire Blast","Hyper Voice","Toxic"],
+				items:["Altarianite"],
+				ability:"Natural Cure",
+				nature:"Bold",
+				setname:["Mega"]
+			}]
+		},
+		{
+		id:"334-m",
+		set:[{
+				HP:244,
+				Atk:0,
+				Def:252,
+				SpA:12,
+				SpD:0,
+				Spe:0,
+				moves:["Roost","Fire Blast","Hyper Voice","Toxic"],
+				items:["Altarianite"],
+				ability:"Pixilate",
+				nature:"Bold",
+				setname:["It's SO fluffy!"]
+			}]
+		},
+		{
+		id:"706",
+		set:[{
+				HP:116,
+				Atk:0,
+				Def:212,
+				SpA:164,
+				SpD:12,
+				Spe:4,
+				moves:["Draco Meteor","Fire Blast","Sludge Wave","Thunderbolt"],
+				items:["Assault Vest"],
+				ability:"Sap Sipper",
+				nature:"Modest",
+				setname:["Special Tank"]
+			}]
 		}
 	]	
 		
